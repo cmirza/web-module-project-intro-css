@@ -1,0 +1,140 @@
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+body {
+    font-family: "Roboto Mono";
+    width: 100%;
+}
+
+h1 {
+    font-family: "Chelsea Market";
+    color: black;
+    text-align: center;
+    font-size: 40pt;
+}
+
+nav {
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.navButton {
+    margin: 0 25px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    width: 150px;
+}
+
+.plan {
+    background-color: #ff764e;
+}
+
+.learn {
+    background-color: #5ed3eb;
+}
+
+.involved {
+    background-color: #ffcd69;
+}
+
+.title {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.headerImage {
+    display: inline-block;
+    margin-left: 10%;
+    width: 25%;
+}
+
+.headerImage img{
+    border-radius: 100%;
+    width: 100%;
+}
+
+.titleText {
+    display: inline-block;
+    position: relative;
+    top: -60px;
+    width: 60%;
+    text-align: center;
+}
+
+.titleText h2 {
+    text-align: center;
+}
+
+.moreInfo {
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+    background-color: #ddb9a3;
+    width: 80%;
+    padding: 30px;
+}
+
+.highlights{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.highlights div{
+    margin-bottom: 50px;
+}
+
+.highlights img{
+    width: 150px;
+    margin: 0 auto;
+}
+
+.highlights p{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.boldText{
+    font-weight: bolder;
+}
+
+footer {
+    background-color: #f9e7dc;
+    display: inline-block;
+    width: 100%;
+}
+
+.footerImage {
+    height: 400px;
+    overflow: hidden;
+}
+
+footer .nav {
+    text-align: center;
+    padding: 30px 0;
+  }
